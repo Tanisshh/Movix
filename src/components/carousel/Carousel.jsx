@@ -13,11 +13,9 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 import PosterFallback from "../../assets/no-poster.png";
-
 import "./style.scss";
-import CircleRating from "../circleRating/circleRating";
 import Genre from "../genre/Genre";
-
+import CircleRating from "../circleRating/CircleRating";
 
 const Carousel = ({ data, loading, endpoint, title }) => {
     const {url} = useSelector((state) => state.home)
